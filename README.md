@@ -1,10 +1,10 @@
 # NuRec Skills
 
-Agent skills for **NVIDIA Omniverse NuRec** and the surrounding
-neural-reconstruction stack — installable, version-pinned `SKILL.md`
-bundles that teach a coding agent how to ingest sensor data, train
-reconstructions, render novel views, harvest 3D objects, clean up
-artifacts, and find the right NVIDIA dataset for the job.
+NVIDIA Omniverse NuRec agent skills are installable `SKILL.md` bundles
+that automate NuRec neural reconstruction and rendering for autonomous
+vehicle and robotics simulation. Each skill teaches a coding agent to
+ingest sensor data, train reconstructions, and render novel views end to
+end.
 
 The canonical home is <https://github.com/NVIDIA/nurec-skills>.
 
