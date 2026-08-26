@@ -5,10 +5,11 @@ description: >-
   Engine (NRE) via the public NGC containers nvcr.io/nvidia/nre/nre
   and nvcr.io/nvidia/nre/nre-tools (NGC_API_KEY required) — train
   3DGUT Gaussian reconstructions from NCore clips, generate aux
-  data, render frames or LiDAR sweeps (local or warm `serve-grpc`),
-  export PLY/depth/mesh/USDZ, edit actors, and evaluate metrics. Do
-  NOT use for per-object asset capture (use `asset-harvester`) or
-  sensor-to-NCore conversion (use `ncore`).
+  data, adapt an existing USDZ to an augmented target-vehicle rig
+  (carline adaptation), render frames or LiDAR sweeps (local or warm
+  `serve-grpc`), export PLY/depth/mesh/USDZ, edit actors, and evaluate
+  metrics. Do NOT use for per-object asset capture (use
+  `asset-harvester`) or sensor-to-NCore conversion (use `ncore`).
 version: "0.2.2"
 tools:
   - Shell
@@ -321,6 +322,8 @@ Read these on demand; keep `SKILL.md` as the routing layer.
 - `references/aux-data.md` — `nre-tools` auxiliary-data CLI.
 - `references/local-render.md` — host-side `docker run … render`
   recipes for rig offsets and `export-custom-rig-trajectory`.
+- `references/carline-adaptation.md` — augmented target-rig trajectory export,
+  local render, and optional `nurec-fixer` Harmonizer handoff.
 - `references/NRE_RenderClient/README.md` — warm-server thin
   Python gRPC client.
 - `references/grpc-api.md` — sensorsim gRPC server flags + Python
