@@ -1,6 +1,6 @@
 # NuRec Skills (deprecated)
 
-**This repository is deprecated and will be removed by December 15, 2026. Please use the new skills listed below.**
+**This repository is deprecated and will be removed after December 15, 2026. Please use the new skills listed below.**
 
 The skills moved into the product repositories they describe.
 
