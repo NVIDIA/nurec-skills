@@ -1,9 +1,0 @@
-blank_issues_enabled: false
-
-contact_links:
-  - name: "💬 Submit a question (usage, how-to)"
-    url: https://forums.developer.nvidia.com/c/omniverse/platform/nurec/752
-    about: >
-      For usage questions and discussion, please post on the NVIDIA Developer
-      Forum (Omniverse / NuRec category). The support team monitors this
-      category and answers there.
