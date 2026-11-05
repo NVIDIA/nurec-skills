@@ -1,9 +1,0 @@
-# Personal (user-specific) configuration overrides
-# includes credentials and secrets
-# do not commit this file to the repository
-ngc_api_key: "" # add your ngc api key here
-ngc_org: "" # add your ngc org here
-ngc_team: "" # add your ngc team here
-
-huggingface_token: "" # add your huggingface token here
-huggingface_username: "" # add your huggingface username here
